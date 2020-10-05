@@ -1,9 +1,9 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "eastside-theme",
   "version": "1.0.0",
-  "description": "Sensible Webpack 4 boilerplate using Babel and PostCSS with HMR development server and optimized production build.",
+  "description": "Static HTML5 template boilerplate for the EastsideCO Assesment.",
   "main": "index.js",
-  "author": "Tania Rascia",
+  "author": "Adrian Zaharia",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
@@ -12,7 +12,6 @@
   "keywords": [
     "webpack",
     "webpack 4",
-    "webpack boilerplate",
     "boilerplate",
     "hmr"
   ],
@@ -41,9 +40,5 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:taniarascia/webpack-boilerplate"
   }
 }
