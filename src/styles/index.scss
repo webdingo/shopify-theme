@@ -1,8 +1,14 @@
 @import "variables";
+@import "fonts";
 
 html {
   font-size: $root-font-size;
+  font-family: $body-font-family;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+body {
+  font-size: 1.6rem;
 }
