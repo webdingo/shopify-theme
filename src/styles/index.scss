@@ -1,5 +1,6 @@
 @import "variables";
 @import "fonts";
+@import "homepage";
 
 html {
   font-size: $root-font-size;
@@ -10,5 +11,37 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 60rem;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+
+  @media screen and (min-width: 75rem) {
+    max-width: 85.375rem;
+  }
+
+  @media screen and (min-width: 87.5rem) {
+    max-width: 90rem;
+  }
+}
+
+// Tools
+.fill-image {
+  visibility: hidden;
+}
+
+.no-repeat {
+  background-repeat: no-repeat;
+}
+
+.cover {
+  background-size: cover;
 }

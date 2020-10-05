@@ -8,5 +8,35 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
 
-  <body></body>
+  <body>
+    <nav>
+      <div class="desktop-nav container">
+        <ul class="menu">
+          <li class="menu-item">Shop</li>
+          <li class="menu-item">Collections</li>
+          <li class="menu-item"><i class="ic-search"></i></li>
+          <li class="menu-item"><i class="ic-basket"></i></li>
+          <li class="menu-item"><i class="ic-hamburger"></i></li>
+        </ul>
+      </div>
+      <div class="mobile-nav"></div>
+    </nav>
+    <main class="homepage">
+      <section class="featured">
+        <div class="container">
+          <div
+            class="featured-heading no-repeat cover"
+            style="background-image: url('assets/featured-image.jpg')"
+          >
+            <img
+              src="assets/featured-image.jpg"
+              alt=""
+              class="fill-image 100"
+            />
+          </div>
+          <div class="featured-cta"></div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
